@@ -1,0 +1,48 @@
+{
+  "name": "healthcare-chatbot-frontend",
+  "version": "1.0.0",
+  "description": "Frontend for the Healthcare Chatbot application, providing a user-friendly interface for chat interactions.",
+  "main": "src/index.tsx",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "keywords": [
+    "healthcare",
+    "chatbot",
+    "react",
+    "frontend",
+    "pwa"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
+    "tailwindcss": "^2.2.19",
+    "jwt-decode": "^3.1.2"
+  },
+  "devDependencies": {
+    "typescript": "^4.4.4",
+    "postcss": "^8.3.6",
+    "autoprefixer": "^10.3.7"
+  },
+  "homepage": ".",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

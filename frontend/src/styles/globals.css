@@ -1,0 +1,85 @@
+html
+/* Global Styles */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+}
+
+/* Accessibility */
+:focus {
+    outline: 2px solid #007bff;
+}
+
+/* Theme Variables */
+:root {
+    --primary-color: #007bff;
+    --secondary-color: #6c757d;
+    --background-color: #f4f4f4;
+    --text-color: #333;
+}
+
+.dark-theme {
+    --primary-color: #1a1a1a;
+    --secondary-color: #333;
+    --background-color: #121212;
+    --text-color: #f4f4f4;
+}
+
+.sepia-theme {
+    --primary-color: #704214;
+    --secondary-color: #8B4513;
+    --background-color: #F5DEB3;
+    --text-color: #5B3A29;
+}
+
+/* Apply Theme Colors */
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+button {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+.sidebar {
+    background-color: var(--secondary-color);
+}
+
+.chat-container {
+    background-color: var(--background-color);
+}

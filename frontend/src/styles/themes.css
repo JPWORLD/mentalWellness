@@ -1,0 +1,79 @@
+:root {
+    --primary-color: #4A90E2; /* Light Blue */
+    --secondary-color: #D9E6F2; /* Light Gray */
+    --text-color: #333333; /* Dark Text */
+    --background-color: #FFFFFF; /* Light Background */
+    --border-color: #E0E0E0; /* Light Border */
+}
+
+.light-theme {
+    --primary-color: #4A90E2; /* Light Blue */
+    --secondary-color: #D9E6F2; /* Light Gray */
+    --text-color: #333333; /* Dark Text */
+    --background-color: #FFFFFF; /* Light Background */
+    --border-color: #E0E0E0; /* Light Border */
+}
+
+.dark-theme {
+    --primary-color: #1E1E1E; /* Dark Gray */
+    --secondary-color: #2C2C2C; /* Darker Gray */
+    --text-color: #FFFFFF; /* Light Text */
+    --background-color: #121212; /* Dark Background */
+    --border-color: #444444; /* Dark Border */
+}
+
+.sepia-theme {
+    --primary-color: #C19A6B; /* Sepia */
+    --secondary-color: #E8D8C3; /* Light Sepia */
+    --text-color: #3B2A1D; /* Dark Sepia Text */
+    --background-color: #F5F0E1; /* Light Sepia Background */
+    --border-color: #D1BFA0; /* Sepia Border */
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: var(--text-color);
+    background-color: var(--background-color);
+    border: 1px solid var(--border-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--primary-color);
+}
+
+button {
+    background-color: var(--primary-color);
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: darken(var(--primary-color), 10%);
+}
+
+.sidebar {
+    background-color: var(--secondary-color);
+    border-right: 1px solid var(--border-color);
+}
+
+.chat-container {
+    background-color: var(--background-color);
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.message {
+    margin: 10px 0;
+}
+
+.message.user {
+    text-align: right;
+}
+
+.message.bot {
+    text-align: left;
+}
