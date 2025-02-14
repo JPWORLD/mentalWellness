@@ -1,4 +1,4 @@
-# Healthcare Chatbot
+# Healthcare-Chatbot
 
 ## Overview
 The Healthcare Chatbot is a full-stack application designed to provide users with a secure and engaging conversational AI assistant focused on mental and physical health. The chatbot leverages the Ollama Gemma:2B model to generate responses and offers features such as user authentication, chat history, and personalized AI training.
